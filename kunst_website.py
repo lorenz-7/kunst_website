@@ -83,12 +83,12 @@ elif selection_screen == "Schlechtes":
 elif selection_screen == "Beispiel":
     st.title("Beispiel eines Klassifizierungsnetzes")
     github_gist("https://gist.github.com/lorenz-7/a5c85ce29a40fb9a5b168102a7b9e8e8")
-    st.markdown("#### Dieses AlexNet-Modell ist ein tiefes konvolutionales Neuronales Netz, das für die Klassifikation von Bildern verwendet wird. Es besteht aus mehreren Schichten:")
+    st.markdown("#### Dieses Modell ist ein tiefes neuronales Netz, das für die Klassifikation von Bildern verwendet wird – zur Zeit der Vorstellung lieferte es bahnbrechende Neuerungen. Es besteht aus mehreren Schichten:")
     st.markdown("#### 1. Conv2D-Schichten: Diese Schichten führen Konvolutionen aus, bei denen das Eingabebild mit Filtern überlappt wird, um Merkmale zu erkennen.")
     st.markdown("#### 2. MaxPooling2D-Schichten: Diese Schichten führen Max-Pooling aus, bei dem ein Teilbereich des Bildes ausgewählt wird, um die Dimensionen des Eingabebilds zu reduzieren und gleichzeitig wichtige Merkmale zu erhalten.")
-    st.markdown("#### 3. Flatten-Schicht: Diese Schicht flattet die Ausgabe der Konvolution und Pooling-Schichten in einen eindimensionalen Vektor. ")
-    st.markdown("#### 4. Dense-Schichten: Diese Schichten sind vollständig verbundene Schichten, die das Modell trainieren, um auf den Eingabedaten zu generalisieren.")
-    st.markdown("#### 5. Output-Schicht: Die Output-Schicht verwendet die Softmax-Aktivierungsfunktion, um eine Wahrscheinlichkeitsverteilung für die Klassen vorherzusagen.")
+    st.markdown("#### 3. Flatten-Schicht: Diese Schicht flattet die Ausgabe der Konvolution und Pooling-Schichten.")
+    st.markdown("#### 4. Dense-Schichten: Diese Schichten sind vollständig verbundene Schichten, die das Modell trainieren.")
+    st.markdown("#### 5. Output-Schicht: Die Output-Schicht gibt eine Wahrscheinlichkeiten bezogen auf den Input wieder.")
     st.markdown("#### Zusammen bilden diese Schichten ein Modell, das in der Lage ist, aus Eingabebildern Merkmale zu extrahieren und diese Merkmale zur Klassifikation zu verwenden.")
 
 
