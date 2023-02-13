@@ -48,6 +48,7 @@ with st.sidebar:
 if selection_screen == "Home":
     st.title("Home")
     st.video("./images/Einleitung.mp4")
+    st.text("Gemacht von Lorenz Rutkevich")
 
 elif selection_screen == "Überblick":
     st.title("Neuronale Netzwerke im Überblick")
@@ -93,5 +94,8 @@ elif selection_screen == "Beispiel":
 
 elif selection_screen == "Tagebuch":
     st.title("Mein Wekstatt-Tagebuch")
+    for i in reversed(range(16)):
+       if i != 0:
+           st.image(f"./images/{i}.jpg")
 
     
