@@ -69,17 +69,17 @@ elif selection_screen == "Gutes":
 elif selection_screen == "Schlechtes":
     st.title("Aber nicht alles ist gut")
     st.markdown("#### Es gibt einige Nachteile und Herausforderungen bei der Verwendung von neuronalen Netzen, darunter:")
-    st.markdown("#### 1. Überanpassung: Wenn ein neuronaler Netzwerk zu sehr auf einen bestimmten Datensatz trainiert wird, kann es schlecht auf neue, unbekannte Daten generalisieren.")
+    st.markdown("#### 1. Überanpassung: Wenn ein neuronales Netzwerk zu sehr auf einen bestimmten Datensatz trainiert wird, kann es schlecht auf neue, unbekannte Daten generalisieren.")
     st.markdown("#### 2. Interpretierbarkeit: Es kann schwierig sein, die Entscheidungen eines neuronalen Netzes zu verstehen und zu interpretieren, da sie auf komplexen Verbindungen und Gewichtungen zwischen Neuronen basieren.")
-    st.markdown("#### 3. Datenanforderungen: Um ein neuronalen Netzwerk effektiv trainieren zu können, ist es erforderlich, große Mengen an qualitativ hochwertigen Daten bereitzustellen.")
-    st.markdown("#### 4. Bias: Neuronale Netze können einen Bias aufweisen, wenn sie auf biased-Datensätzen trainiert werden, was zu ungenauen oder unfair Entscheidungen führen kann.")
+    st.markdown("#### 3. Datenanforderungen: Um ein neuronales Netzwerk effektiv trainieren zu können, ist es erforderlich, große Mengen an qualitativ hochwertigen Daten bereitzustellen.")
+    st.markdown("#### 4. Bias: Neuronale Netze können einen Bias aufweisen, wenn sie auf biased-Datensätzen trainiert werden, was zu ungenauen oder unfairen Entscheidungen führen kann.")
     st.markdown("#### Künstliche Intelligenz und Neuronale Netze bergen einige Risiken, darunter:")
     st.markdown("- #### Datenschutz: Die Verwendung von neuronalen Netzen erfordert oft den Zugriff auf große Mengen an sensiblen Daten, was zu Datenschutzproblemen führen kann. ")
-    st.markdown("- #### Jobverlust: Die Automatisierung durch KI und Neuronale Netze kann dazu führen, dass bestimmte Arbeitsplätze überflüssig werden.")
+    st.markdown("- #### Jobverlust: Die Automatisierung durch KI und neuronale Netze kann dazu führen, dass bestimmte Arbeitsplätze überflüssig werden.")
     st.markdown("- #### Fehler und unerwartete Ausgänge: Neuronale Netze können aufgrund ihrer Komplexität und mangelnden Interpretierbarkeit Fehler verursachen oder unerwartete Ergebnisse liefern, insbesondere in kritischen Anwendungsbereichen wie beispielsweise im medizinischen Bereich oder bei autonomen Systemen wie Drohnen.")
     st.markdown("- #### Unethische Entscheidungen: KI-Systeme können aufgrund ihrer Programmierung oder aufgrund von Bias in den Datensätzen unethische Entscheidungen treffen.")
-    st.markdown("#### Es ist wichtig, dass bei der Entwicklung und Anwendung von KI und neuronalen Netzen die möglichen Risiken sorgfältig abgewogen und entsprechende Maßnahmen ergriffen werden, um diese zu minimieren. Dazu gehören beispielsweise Regulierungen, Überwachung und Transparenz, Ethikrichtlinien und Verantwortung. Es ist eine kontinuierliche Herausforderung, KI und Neuronale Netze so zu entwickeln und einzusetzen, dass sie den größtmöglichen Nutzen bringen und gleichzeitig sicher und verantwortungsvoll sind.")
-
+    st.markdown("#### Es ist wichtig, dass bei der Entwicklung und Anwendung von KI und neuronalen Netzen die möglichen Risiken sorgfältig abgewogen und entsprechende Maßnahmen ergriffen werden, um diese zu minimieren. Dazu gehören beispielsweise Regulierungen, Überwachung und Transparenz, Ethikrichtlinien und Verantwortung. Es ist eine kontinuierliche Herausforderung, KI und neuronale Netze so zu entwickeln und einzusetzen, dass sie den größtmöglichen Nutzen bringen und gleichzeitig sicher und verantwortungsvoll sind.")
+    st.markdown("#### Instanzen wie zum Beipsiel die EU haben diesbezüglich jedoch schon Maßnahmen ergriffen welche man zum Beispiel (hier)[https://algorithmwatch.org/de/europarat-kunstliche-intelligenz/] nachlesen kann.
 elif selection_screen == "Beispiel":
     st.title("Beispiel eines Klassifizierungsnetzes")
     github_gist("https://gist.github.com/lorenz-7/a5c85ce29a40fb9a5b168102a7b9e8e8")
