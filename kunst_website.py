@@ -79,7 +79,7 @@ elif selection_screen == "Schlechtes":
     st.markdown("- #### Fehler und unerwartete Ausgänge: Neuronale Netze können aufgrund ihrer Komplexität und mangelnden Interpretierbarkeit Fehler verursachen oder unerwartete Ergebnisse liefern, insbesondere in kritischen Anwendungsbereichen wie beispielsweise im medizinischen Bereich oder bei autonomen Systemen wie Drohnen.")
     st.markdown("- #### Unethische Entscheidungen: KI-Systeme können aufgrund ihrer Programmierung oder aufgrund von Bias in den Datensätzen unethische Entscheidungen treffen.")
     st.markdown("#### Es ist wichtig, dass bei der Entwicklung und Anwendung von KI und neuronalen Netzen die möglichen Risiken sorgfältig abgewogen und entsprechende Maßnahmen ergriffen werden, um diese zu minimieren. Dazu gehören beispielsweise Regulierungen, Überwachung und Transparenz, Ethikrichtlinien und Verantwortung. Es ist eine kontinuierliche Herausforderung, KI und neuronale Netze so zu entwickeln und einzusetzen, dass sie den größtmöglichen Nutzen bringen und gleichzeitig sicher und verantwortungsvoll sind.")
-    st.markdown("#### Instanzen wie zum Beipsiel die EU haben diesbezüglich jedoch schon Maßnahmen ergriffen welche man zum Beispiel (hier)[https://algorithmwatch.org/de/europarat-kunstliche-intelligenz/] nachlesen kann.")
+    st.markdown("#### Instanzen wie zum Beipsiel die EU haben diesbezüglich jedoch schon Maßnahmen ergriffen, welche man zum Beispiel [hier](https://algorithmwatch.org/de/europarat-kunstliche-intelligenz/) nachlesen kann.")
 elif selection_screen == "Beispiel":
     st.title("Beispiel eines Klassifizierungsnetzes")
     github_gist("https://gist.github.com/lorenz-7/a5c85ce29a40fb9a5b168102a7b9e8e8")
