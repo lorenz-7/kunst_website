@@ -41,8 +41,8 @@ def read(path):
         return lines
 
 with st.sidebar:
-    selection_screen = option_menu("Kunst", ["Home", "Überblick", "Gutes", "Schlechtes", "Beispiel", "Tagebuch"],
-                                   icons=["house", "app-indicator", "plus-circle", "dash-circle", "journal-code", "journal"],
+    selection_screen = option_menu("Kunst", ["Home", "Überblick", "Gutes", "Schlechtes", "Beispiel", "Tagebuch", "Reflexion"],
+                                   icons=["house", "app-indicator", "plus-circle", "dash-circle", "journal-code", "journal", "circle"],
                                    menu_icon="bank")
     st.image("./images/logo_kunst.png")
 if selection_screen == "Home":
@@ -97,5 +97,13 @@ elif selection_screen == "Tagebuch":
     for i in reversed(range(16)):
        if i != 0:
            st.image(f"./images/{i}.jpg")
+            
+elif selection_screen == "Reflexion":
+    st.title("Reflexion")
+    st.markdown('##### Meine Werkstattarbeit hatte das Thema "Wie kann "Kunst" in Interaktion mit der Natur helfen?" und durch diese Arbeit konnte ich viele Erfahrungen sammeln. Aufgrund meiner Vorerfahrungen und Interessen entschied ich mich, eine Website zu erstellen, die meine Ausarbeitung darstellt. Zunächst wollte ich ein Video erstellen, aber aufgrund der Komplexität und des geringen Nutzens habe ich mich dafür entschieden, Videos in meine Website zu integrieren. Nach zwei Wochen beschloss ich, eine Blog-Website zu gestalten, und nutzte dazu das Framework Streamlit, das mit der Programmiersprache Python funktioniert.')
+    st.markdown("##### Wie bei jedem Programmierprojekt stieß ich auf Schwierigkeiten in Bezug auf Fehler im Code, insbesondere bei der Integration von Textteilen, die in den Code selbst integriert werden mussten. Trotz dieser Herausforderungen verlief die Arbeit insgesamt sehr gut. Ich konnte das Logo und das Layout der Website erfolgreich entwerfen und aufgrund meiner Erfahrungen in diesem Bereich konnte ich auftretende Probleme schneller lösen.")
+    st.markdown("##### Insgesamt bin ich sehr zufrieden mit dieser Arbeit und konnte auch große Fortschritte beim selbstständigen Lernen, Zeitmanagement und spontanen Problemlösung verzeichnen. Obwohl ich viel durch diese Arbeit gelernt habe, wurden auch viele meiner Probleme aufgedeckt.")
+    
+
 
     
