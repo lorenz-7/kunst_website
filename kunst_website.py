@@ -42,7 +42,7 @@ def read(path):
 
 with st.sidebar:
     selection_screen = option_menu("Kunst", ["Home", "Überblick", "Gutes", "Schlechtes", "Beispiel", "Tagebuch", "Reflexion"],
-                                   icons=["house", "app-indicator", "plus-circle", "dash-circle", "journal-code", "journal", "circle"],
+                                   icons=["house", "app-indicator", "plus-circle", "dash-circle", "journal-code", "journal", "body-text"],
                                    menu_icon="bank")
     st.image("./images/logo_kunst.png")
 if selection_screen == "Home":
