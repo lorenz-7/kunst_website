@@ -88,7 +88,7 @@ elif selection_screen == "Beispiel":
     st.markdown("#### 2. MaxPooling2D-Schichten: Diese Schichten führen Max-Pooling aus, bei dem ein Teilbereich des Bildes ausgewählt wird, um die Dimensionen des Eingabebilds zu reduzieren und gleichzeitig wichtige Merkmale zu erhalten.")
     st.markdown("#### 3. Flatten-Schicht: Diese Schicht flattet die Ausgabe der Konvolution und Pooling-Schichten.")
     st.markdown("#### 4. Dense-Schichten: Diese Schichten sind vollständig verbundene Schichten, die das Modell trainieren.")
-    st.markdown("#### 5. Output-Schicht: Die Output-Schicht gibt eine Wahrscheinlichkeiten bezogen auf den Input wieder.")
+    st.markdown("#### 5. Output-Schicht: Die Output-Schicht gibt Wahrscheinlichkeiten bezogen auf den Input wieder.")
     st.markdown("#### Zusammen bilden diese Schichten ein Modell, das in der Lage ist, aus Eingabebildern Merkmale zu extrahieren und diese Merkmale zur Klassifikation zu verwenden.")
 
 
